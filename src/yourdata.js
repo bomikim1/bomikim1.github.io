@@ -20,7 +20,7 @@ export default {
   name: "Bomi Kim",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Product Design",
     //Line 2 For Header
     "products, brands,",
     //Line 3 For Header
