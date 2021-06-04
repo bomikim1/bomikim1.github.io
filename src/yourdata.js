@@ -17,7 +17,7 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Bomi Kim",
   headerTagline: [
     //Line 1 For Header
     "Building digital",
@@ -31,7 +31,7 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "95bomi@gmail.com",
 
   // End Header Details -----------------------
 
