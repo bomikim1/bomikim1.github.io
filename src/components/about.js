@@ -22,7 +22,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-          <img src={require("./images/profile.jpeg").default} alt="about"/>
+          <img src={aboutImage} alt="about"/>
           </div>
         </div>
       </div>
