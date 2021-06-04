@@ -172,7 +172,7 @@ export default {
   //   Contact Section --------------
 
   contactSubHeading: "Let's create your next experience together",
-  social: [
+  /*social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/chetanverma16" },
     {
@@ -187,7 +187,7 @@ export default {
       img: instagramIcon,
       url: "https://www.instagram.com/",
     },
-  ],
+  ],*/
 
   // End Contact Section ---------------
 }
