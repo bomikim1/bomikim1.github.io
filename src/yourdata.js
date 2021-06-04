@@ -172,22 +172,6 @@ export default {
   //   Contact Section --------------
 
   contactSubHeading: "Let's create your next experience together",
-  /*social: [
-    // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
-  ],*/
 
   // End Contact Section ---------------
 }
