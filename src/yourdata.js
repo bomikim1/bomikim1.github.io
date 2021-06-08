@@ -9,8 +9,6 @@ import codeIcon from "./images/code.svg"
 // About Image
 import aboutImage from "./images/profile.jpeg"
 
-console.log(aboutImage);
-
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
