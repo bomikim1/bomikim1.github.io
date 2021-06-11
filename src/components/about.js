@@ -2,7 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
+
 const About = () => {
+
   return (
     <div className="secion" id="about">
       <div className="container">
@@ -20,12 +22,15 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
-          </div>
-          <img src={data.aboutImage} alt="about"></img>
         </div>
+        <div className="image-wrapper">
+            <img src="/static/profile.jpeg"alt="about"></img>
+          </div>
       </div>
     </div>
+</div>
   )
+
 }
 
 export default About

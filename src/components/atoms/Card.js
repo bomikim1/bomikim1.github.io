@@ -22,7 +22,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         >
           Explore
         </a>
-      </div>
+        </div>
     </div>
   )
 }

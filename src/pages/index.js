@@ -6,13 +6,14 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import Work from "../components/Work"
 import About from "../components/about"
+import Images from "../components/Images"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="Bomi Kim Portfolio" />
     <Header></Header>
     <Work></Work>
     <About></About>
