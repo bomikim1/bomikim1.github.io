@@ -20,7 +20,7 @@ const Work = () => {
                   key={index}
                   heading={project.title}
                   paragraph={project.para}
-                  imgUrl={project.imageSrc}
+                  thumb={project.img}
                   projectLink={project.url}
                 ></Card>
               ))}
