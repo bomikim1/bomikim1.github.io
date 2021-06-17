@@ -1,22 +1,25 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import { Link } from "gatsby"
+
+
 const Navbar = () => {
   return (
     <div className="section">
       <div className="container">
         <div className="navbar-wrapper">
           <div
-            role="button"
-            onClick={() => scrollTo("#home")}
             className="name"
             tabIndex={0}
-          >
-            Portfolio.
+            >
+            <Link to="/">
+            Bomi Kim.
+            </Link>
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <Link to="/"><button>Work</button></Link>
+            <Link to="/about"><button>About</button></Link>
+
           </div>
         </div>
       </div>

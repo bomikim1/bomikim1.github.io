@@ -5,14 +5,24 @@ img {
   
 .headline-container {
     width: 80vw;
-    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     h1 {
       font-size: 3rem;
       line-height: 20px;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
     }
   }
   

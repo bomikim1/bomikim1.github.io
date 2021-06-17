@@ -14,9 +14,6 @@ const GalaxyHarajukuPage = () => (
           <Fade bottom cascade>
             <h1>Galaxy Harajuku Online Project</h1>
           </Fade>
-          <Fade bottom>
-            <p>2020.04 - 2020.09</p>
-          </Fade>
         </div>
       </div>
     </div>

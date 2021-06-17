@@ -8,8 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <h1>{data.contactSubHeading}</h1>
           </Fade>
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
@@ -19,7 +18,7 @@ const Footer = () => {
             <a>Bomi Kim</a>
           </span>
         </div>
-      </div>
+        </div>
     </div>
   )
 

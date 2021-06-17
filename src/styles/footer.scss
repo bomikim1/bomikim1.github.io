@@ -5,11 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   h1 {
-    font-size: 3rem;
-    line-height: 20px;
-  }
-  h2 {
     font-size: 1.5rem;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
@@ -23,7 +20,7 @@
     }
   }
   .email-link {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
   }
   span {

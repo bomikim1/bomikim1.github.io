@@ -17,6 +17,7 @@ import instagramIcon from "./images/instagram.svg"
 
 // Work Thumbnail
 import Thumb from "./images/thumb.png"
+import Thumb02 from "./images/Thumb-gh.png"
 
 
 export default {
@@ -59,7 +60,7 @@ export default {
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      img: Thumb,
+      img: Thumb02,
 
 
       //Project URL - Add Your Project Url Here
